@@ -137,10 +137,10 @@ DANORA **has no server**. All of your data (grades, images, notes, profile and m
 
 <div dir="rtl">
 
-## 📄 لایسنس | License
+## 📄 لایسنس| License
 
 © MRGB8438 — ساخته‌شده با ❤️ برای دانشجوهای ایران
-
+صفر تا صد این پروژه با هوش مصنوعی و پیشنهادات دانشجویان بوده ❤️🤖
 </div>
 
 <div dir="ltr">
