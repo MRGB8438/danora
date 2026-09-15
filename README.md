@@ -1,11 +1,21 @@
-[README.md](https://github.com/user-attachments/files/32239289/README.md)
-# danora<div dir="rtl">
+[README.md](https://github.com/user-attachments/files/32240096/README.md)
+<div dir="rtl">
 
 # 🎓 دانورا (DANORA)
 
 **سیستم‌عامل دانشجویی — همراه هوشمند تو در مسیر دانایی و پیشرفت**
 
 دانورا یک اپلیکیشن کامل مدیریت زندگی دانشگاهی است: برنامه هفتگی، حضور و غیاب، وظایف و پروژه‌ها، نمرات و معدل، جزوه‌نویسی، تایمر تمرکز، گزارش هفتگی عملکرد، قفل برنامه با اثر انگشت و خیلی چیزهای دیگر — همه در یک اپ زیبا، فارسی و کاملاً آفلاین.
+
+</div>
+
+<div dir="ltr">
+
+**DANORA — The Student OS, your smart companion on the path of knowledge and progress.**
+
+DANORA is a complete university-life app: weekly schedule, attendance, tasks & projects, grades & GPA, lecture notes, focus timer, weekly performance report, app lock with fingerprint and much more — all in one beautiful, Persian, fully offline app.
+
+</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/نسخه-1.0.0-3b6eff?style=for-the-badge" alt="version" />
@@ -14,37 +24,73 @@
   <img src="https://img.shields.io/badge/React_18-TypeScript-149eca?style=for-the-badge&logo=react" alt="react" />
 </p>
 
-</div>
-
 ---
+
+<div dir="rtl">
+
+## 🚀 شروع سریع | Get Started
+
+### 🤖 اندروید — دانلود APK
+
+فایل APK را از صفحه [Releases](https://github.com/MRGB8438/danora/releases) دانلود کن و مستقیم نصبش کن. اگر گوشی پرسید، اجازه «نصب از منابع ناشناس (Install unknown apps)» را بده.
+
+</div>
 
 <div dir="ltr">
 
-## ✨ Why DANORA?
+**Android — download the APK**
 
-DANORA is a **privacy-first student operating system**. Everything runs 100% on your device — no account, no server, no tracking. Built with love for Iranian university students, fully in Persian (RTL) with a beautiful dark UI.
+Download the APK from the [Releases](https://github.com/MRGB8438/danora/releases) page and install it directly. If your phone asks, allow "Install unknown apps".
 
-## 🚀 Get Started
+</div>
 
-**Android** — grab the latest APK from [Releases](https://github.com/MRGB8438/danora/releases) and install it directly (allow "Install unknown apps" when asked).
+<div dir="rtl">
 
-**Web (PWA)** — host the static `dist` build on any free static host (Netlify / Cloudflare Pages / GitHub Pages), open it in Chrome and tap **"Add to Home screen"**. Full step-by-step deployment guide: `danora-deploy-guide-fa.pdf` (Persian).
+> ⚠️ **هشدار گوگل پلی:** چون دانورا خارج از گوگل‌پلی نصب می‌شود، ممکن است Play Protect هشدار بدهد. روی «نصب در هر صورت (Install anyway)» بزن؛ این پیام برای همه اپ‌های خارج از پلی می‌آید و نشانه مشکلی در دانورا نیست.
 
-**In-app updates** — DANORA checks GitHub Releases every 6 hours (and manually from *Settings → Update*). When you publish a release with a higher `vX.Y.Z` tag and an APK asset, every user gets an update banner with a direct download link.
+</div>
 
-## 🧩 Feature Highlights
+<div dir="ltr">
 
-| Area | What you get |
-|---|---|
-| 📅 Academic | Weekly schedule, courses & professors, exams & projects with countdowns, calendar |
-| ✅ Productivity | Tasks with priorities, focus timer (Pomodoro-style), weekly performance report |
-| 📊 Grades | Grade tracker, weighted GPA calculator, attendance tracker with skip limits |
-| 📝 Notes | Lecture notebook (rich blocks), files manager, PDF/image viewers |
-| 🤖 AI | Built-in AI assistant center (bring your own API key) |
-| 🔒 Security | App lock with PIN + fingerprint (Android biometrics), auto-relock in background |
-| 💾 Data | 100% local storage, automatic scheduled backups, one-tap backup/restore, export |
-| 🎨 Personalize | Dark/light themes, accent colors, animated star backgrounds, student ID card |
-| 🔄 Updates | GitHub-releases-based updater, PWA service-worker auto-update |
+> ⚠️ **Google Play warning:** because DANORA is installed outside Google Play, Play Protect may show a warning. Tap "Install anyway" — this message appears for every app outside Play and does not mean there is a problem with DANORA.
+
+</div>
+
+<div dir="rtl">
+
+### 🍎 آیفون — نصب PWA
+
+1. آدرس وب دانورا را با مرورگر **Safari** باز کن.
+2. دکمه **اشتراک‌گذاری (Share)** را بزن.
+3. گزینه **Add to Home Screen** را انتخاب کن.
+4. تمام! حالا دانورا مثل یک اپ واقعی از صفحه اصلی باز می‌شود و کاملاً آفلاین کار می‌کند.
+
+</div>
+
+<div dir="ltr">
+
+**iPhone — install the PWA**
+
+1. Open the DANORA web address in the **Safari** browser.
+2. Tap the **Share** button.
+3. Choose **Add to Home Screen**.
+4. Done! DANORA now opens from your home screen like a real app and works fully offline.
+
+</div>
+
+<div dir="rtl">
+
+### 🔄 آپدیت درون‌برنامه‌ای
+
+دانورا هر ۶ ساعت خودش نسخه جدید را چک می‌کند؛ تو هم می‌توانی هر وقت خواستی از **تنظیمات ← به‌روزرسانی** دستی چک کنی. اگر نسخه جدیدی منتشر شده باشد، بنر «نسخه جدید» می‌بینی و می‌توانی APK نسخه جدید را مستقیم دانلود و نصب کنی.
+
+</div>
+
+<div dir="ltr">
+
+**In-app updates**
+
+DANORA checks for a new version automatically every 6 hours, and you can check manually anytime from **Settings → Update**. When a new release is out, you will see a "New version" banner and can download and install the new APK directly.
 
 </div>
 
@@ -52,79 +98,53 @@ DANORA is a **privacy-first student operating system**. Everything runs 100% on 
 
 <div dir="rtl">
 
-## 🧩 امکانات به فارسی
+## 🧩 امکانات | Feature Highlights
 
-- **برنامه هفتگی و درس‌ها** — جدول کلاس‌ها با استاد، واحد، محل کلاس و یادآور قبل از کلاس
-- **وظایف، پروژه‌ها و امتحانات** — اولویت‌بندی، شمارش معکوس، اعلان‌های هوشمند
-- **حضور و غیاب** — ثبت حضور/غیبت/مجاز با سقف غیبت و هشدار قبل از رسیدن به مرز خطر
-- **نمرات و معدل** — ثبت نمره با وزن واحد، محاسبه معدل ترم و کل، ذخیره محاسبات
-- **جزوه‌نویسی** — دفترچه یادداشت بلوکی برای هر درس + مدیریت فایل‌ها (PDF، عکس، سند)
-- **تایمر تمرکز** — تمرکز عمیق با ثبت آمار، همراه با گزارش هفتگی
-- **گزارش هفتگی عملکرد** — تصویر هفته تو در یک نگاه: تمرکز، وظایف، حضور، نمرات و رویدادها
-- **قفل برنامه** — پین + اثر انگشت (بیومتریک اندروید)، قفل خودکار هنگام رفتن به پس‌زمینه
-- **دستیار هوش مصنوعی** — چت هوشمند دانشگاهی با کلید API خودت
-- **پشتیبان‌گیری** — خودکار زمان‌بندی‌شده + دستی، روی حافظه گوشی یا خروجی فایل JSON
-- **آپدیت خودکار** — چک هر ۶ ساعت از Releases همین مخزن + بنر «نسخه جدید» با دانلود مستقیم
-- **PWA** — نسخه وب قابل نصب روی گوشی و دسکتاپ، کاملاً آفلاین پس از نصب اولیه
-
-## 🔐 حریم خصوصی
-
-دانورا **هیچ سروری ندارد**. همه داده‌ها (نمرات، عکس‌ها، جزوه‌ها، پروفایل و…) فقط روی دستگاه خودت ذخیره می‌شوند. تنها ارتباط شبکه‌ای برنامه، چک‌کردن Releases گیت‌هاب برای آپدیت است.
-
-## 🛠 ساخت از سورس
-
-<div dir="ltr">
-
-```bash
-# prerequisites: Node 18+, JDK 21, Android SDK (for the Android build)
-
-git clone https://github.com/MRGB8438/danora.git
-cd danora
-npm install
-
-# web / PWA build → dist/
-npm run build
-
-# android APK + AAB
-npx cap sync android
-cd android
-./gradlew assembleRelease bundleRelease
-# outputs: app/build/outputs/apk/release/app-release.apk
-#          app/build/outputs/bundle/release/app-release.aab
-```
-
-</div>
-
-## 🔄 انتشار نسخه جدید (برای مالک مخزن)
-
-<div dir="ltr">
-
-1. Bump the version: `package.json`, `android/app/build.gradle` (`versionName` + `versionCode`) and `APP_VERSION` in `src/lib/updater.ts`.
-2. Build the release APK, then go to **Releases → Draft a new release**.
-3. Tag it `vX.Y.Z` (must be **greater** than the current app version) and attach the APK file.
-4. Users get the update banner automatically within 6 hours (or instantly via *Check for update*).
-
-</div>
-
-## 📱 فناوری‌ها
-
-<div dir="ltr">
-
-| Layer | Tech |
+| فارسی | English |
 |---|---|
-| UI | React 18 · TypeScript · Tailwind CSS · lucide-react |
-| Core | Vite 5 · vite-plugin-pwa (Workbox) |
-| Native | Capacitor 7 (Android) · custom BiometricPlugin (framework BiometricPrompt) |
-| Docs/Export | jsPDF · SheetJS (xlsx) · qrcode |
+| 📅 **برنامه هفتگی و درس‌ها** — جدول کلاس‌ها با استاد، واحد، محل کلاس و یادآور قبل از کلاس | 📅 **Weekly schedule** — class timetable with professor, credits, location and a pre-class reminder |
+| ✅ **وظایف، پروژه‌ها و امتحانات** — اولویت‌بندی، شمارش معکوس و اعلان‌های هوشمند | ✅ **Tasks, projects & exams** — priorities, countdowns and smart notifications |
+| 🎓 **حضور و غیاب** — ثبت حضور، غیبت و مجاز با سقف غیبت و هشدار قبل از مرز خطر | 🎓 **Attendance** — present, absent and excused with a skip limit and a warning before the danger line |
+| 📊 **نمرات و معدل** — ثبت نمره با وزن واحد، محاسبه معدل ترم و کل | 📊 **Grades & GPA** — weighted grades with term and cumulative GPA |
+| 📝 **جزوه‌نویسی** — دفترچه بلوکی برای هر درس + مدیریت فایل‌ها (PDF، عکس، سند) | 📝 **Notes** — a rich block notebook for each course + file manager (PDF, images, docs) |
+| ⏱ **تایمر تمرکز** — تمرکز عمیق با ثبت آمار | ⏱ **Focus timer** — deep focus with recorded stats |
+| 📈 **گزارش هفتگی عملکرد** — تصویر هفته تو در یک نگاه: تمرکز، وظایف، حضور، نمرات و رویدادها | 📈 **Weekly report** — your whole week at a glance: focus, tasks, attendance, grades and events |
+| 🔒 **قفل برنامه** — پین + اثر انگشت (بیومتریک اندروید) و قفل خودکار در پس‌زمینه | 🔒 **App lock** — PIN + fingerprint (Android biometrics) with auto-lock in the background |
+| 🤖 **دستیار هوش مصنوعی** — چت هوشمند دانشگاهی با کلید API خودت | 🤖 **AI assistant** — academic smart chat with your own API key |
+| 💾 **پشتیبان‌گیری** — خودکار زمان‌بندی‌شده + دستی، روی حافظه گوشی یا خروجی فایل JSON | 💾 **Backups** — scheduled + manual, on your phone's storage or as a JSON file |
+| 🔄 **آپدیت درون‌برنامه‌ای** — چک خودکار از گیت‌هاب با دانلود مستقیم APK | 🔄 **In-app updates** — automatic GitHub checks with direct APK download |
+| 📱 **PWA** — قابل نصب روی آیفون و کامپیوتر، کاملاً آفلاین بعد از نصب اولیه | 📱 **PWA** — installable on iPhone and desktop, fully offline after the first load |
 
 </div>
 
-## ⚠️ نکته نصب اندروید
+---
 
-چون برنامه خارج از گوگل‌پلی نصب می‌شود، ممکن است **Play Protect** هشدار بدهد. گزینه «نصب در هر صورت (Install anyway)» را بزن؛ این هشدار برای همه اپ‌های منتشرشده خارج از پلی است و نشانه مشکلی در دانورا نیست.
+<div dir="rtl">
 
-## 📄 لایسنس
+## 🔒 حریم خصوصی | Privacy
+
+دانورا **هیچ سروری ندارد**. همه داده‌های تو (نمرات، عکس‌ها، جزوه‌ها، پروفایل و…) فقط روی دستگاه خودت ذخیره می‌شوند و هیچ‌جا آپلود نمی‌شوند. تنها ارتباط اینترنتی برنامه، چک‌کردن نسخه جدید از گیت‌هاب است.
+
+</div>
+
+<div dir="ltr">
+
+DANORA **has no server**. All of your data (grades, images, notes, profile and more) is stored only on your own device and is never uploaded anywhere. The app's only internet connection is checking GitHub for a new version.
+
+</div>
+
+---
+
+<div dir="rtl">
+
+## 📄 لایسنس | License
 
 © MRGB8438 — ساخته‌شده با ❤️ برای دانشجوهای ایران
+
+</div>
+
+<div dir="ltr">
+
+© MRGB8438 — made with ❤️ for Iranian students.
 
 </div>
