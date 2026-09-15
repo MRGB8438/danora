@@ -120,6 +120,7 @@ DANORA checks for a new version automatically every 6 hours, and you can check m
 ---
 
 <div dir="rtl">
+صفر تا صد این پروژه با هوش مصنوعی و پیشنهادات دانشجویان بوده ❤️🤖
 
 ## 🔒 حریم خصوصی | Privacy
 
