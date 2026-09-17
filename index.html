@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0b1023" />
+    <title>دانورا — دستیار هوشمند زندگی دانشگاهی</title>
+    <link rel="icon" type="image/png" href="/icons/favicon.png" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <style>
+      /* Pre-JS splash (لودینگ) — shows instantly before bundle loads */
+      #boot {
+        position: fixed; inset: 0; z-index: 9999;
+        background: radial-gradient(1200px 800px at 50% 20%, #131a38 0%, #0b1023 60%, #080c1c 100%);
+        display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 22px;
+        transition: opacity .45s ease;
+      }
+      #boot img { width: 132px; height: 132px; border-radius: 30px; box-shadow: 0 24px 70px rgba(59,110,255,.45); animation: bootpulse 1.6s ease-in-out infinite; }
+      @keyframes bootpulse { 0%,100% { transform: scale(1);} 50% { transform: scale(1.06);} }
+      #boot .bar { width: 168px; height: 5px; border-radius: 99px; background: rgba(255,255,255,.12); overflow: hidden; }
+      #boot .bar i { display: block; height: 100%; width: 40%; border-radius: 99px; background: linear-gradient(90deg,#3b6eff,#6ea8ff); animation: bootslide 1.1s ease-in-out infinite; }
+      @keyframes bootslide { 0% { transform: translateX(-120%);} 100% { transform: translateX(320%);} }
+      #boot .t { color: #cdd8ff; font-size: 14px; letter-spacing: .02em; opacity: .85; font-family: Vazirmatn, Tahoma, sans-serif; }
+    </style>
+    <script type="module" crossorigin src="/assets/index-AOv-krUN.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BSdlgw7_.css">
+  <link rel="manifest" href="/manifest.webmanifest"></head>
+  <body>
+    <div id="root"></div>
+    <div id="boot">
+      <img src="/icons/icon-512.png" alt="دانورا" />
+      <div class="bar"><i></i></div>
+      <div class="t">دانورا در حال آماده‌سازی…</div>
+    </div>
+  </body>
+</html>
