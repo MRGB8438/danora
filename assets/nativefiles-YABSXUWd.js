@@ -1,0 +1,1 @@
+import{C as n,r as s}from"./index-DCsHdyKL.js";const e=s("DanoraFiles");async function l(o,t,i,r="application/json"){try{if(!n.isNativePlatform())return{ok:!1};const a=await e.savePublic({dir:o||"danora",name:t,mime:r,data:i});return{ok:!!(a!=null&&a.ok),path:a==null?void 0:a.path}}catch(a){return{ok:!1}}}export{l as savePublicDownload};
