@@ -1,4 +1,29 @@
+/* ===== فونت‌های دانورا (v1.0.3) — ۵ فونت فارسی =====
+   وزیرمتن (پیش‌فرض) + استعداد، شبنم، ساحل، صمیم
+   همه لوکال و داخل بسته‌اند — کاملاً آفلاین، بدون دانلود بیرونی. */
+
+/* ---------- وزیرمتن — پیش‌فرض دانورا ---------- */
 @font-face { font-family: 'Vazirmatn'; src: url('./Vazirmatn-Regular.woff2') format('woff2'); font-weight: 400; font-display: swap; }
 @font-face { font-family: 'Vazirmatn'; src: url('./Vazirmatn-Medium.woff2') format('woff2'); font-weight: 500; font-display: swap; }
 @font-face { font-family: 'Vazirmatn'; src: url('./Vazirmatn-Bold.woff2') format('woff2'); font-weight: 700; font-display: swap; }
 @font-face { font-family: 'Vazirmatn'; src: url('./Vazirmatn-ExtraBold.woff2') format('woff2'); font-weight: 800; font-display: swap; }
+
+/* ---------- استعداد — مدرن و هندسی (عربی + لاتین) ---------- */
+@font-face { font-family: 'Estedad'; src: url('./Estedad-Regular.woff2') format('woff2'); font-weight: 400; font-display: swap; unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFC, U+200C-200F; }
+@font-face { font-family: 'Estedad'; src: url('./Estedad-Bold.woff2') format('woff2'); font-weight: 700; font-display: swap; unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFC, U+200C-200F; }
+@font-face { font-family: 'Estedad'; src: url('./Estedad-ExtraBold.woff2') format('woff2'); font-weight: 800; font-display: swap; unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFC, U+200C-200F; }
+@font-face { font-family: 'Estedad'; src: url('./Estedad-latin-400.woff2') format('woff2'); font-weight: 400; font-display: swap; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+@font-face { font-family: 'Estedad'; src: url('./Estedad-latin-700.woff2') format('woff2'); font-weight: 700; font-display: swap; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+@font-face { font-family: 'Estedad'; src: url('./Estedad-latin-800.woff2') format('woff2'); font-weight: 800; font-display: swap; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+/* ---------- شبنم — خوانا و نرم ---------- */
+@font-face { font-family: 'Shabnam'; src: url('./Shabnam-Regular.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Shabnam'; src: url('./Shabnam-Bold.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+
+/* ---------- ساحل — ساده و تمیز ---------- */
+@font-face { font-family: 'Sahel'; src: url('./Sahel-Regular.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Sahel'; src: url('./Sahel-Bold.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+
+/* ---------- صمیم — صمیمی و گرد ---------- */
+@font-face { font-family: 'Samim'; src: url('./Samim-Regular.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Samim'; src: url('./Samim-Bold.woff2') format('woff2'); font-weight: 700; font-display: swap; }
